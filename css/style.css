@@ -1,0 +1,327 @@
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=latin,latin-ext);
+
+html, body{
+ font-family: 'Open Sans', sans-serif;
+ font-size: 12pt;
+ margin:0;
+ padding: 0;
+ min-height: 100%;
+ width: 100%;
+ height: 100%;
+ min-width: 700px;
+ background-color: rgb(230,230,230);
+ text-align: justify;
+}
+
+
+.subP {
+    padding-left: 20px;
+    
+}
+
+h1, h2 {
+    text-align: left;
+}
+
+#content table {
+    border-collapse: collapse;
+}
+
+#content table, td, th {
+	padding: 5px;
+    border: 1px solid black;
+}
+
+.selected{
+
+        font-weight: bold;
+
+}
+
+.quotation{
+    font-style: italic;
+    color: rgb(200,200,200);
+    text-align: right;
+}
+
+.clearfix:after{
+	clear: both;
+	visibility: hidden;
+	content: " ";
+	display: block;
+	height: 0px;
+}
+
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float: right;
+}
+
+
+img.right{
+	float: right;
+	margin-left: 25px;
+    margin-bottom: 20px;
+
+}
+
+img.left{
+	float: left;
+	margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.captionedImg {
+    width: 100%;
+    height: 100%;
+}
+
+.imgRightWithCaption {
+    margin-bottom: 10px;
+    float: right;
+    margin-left: 25px;
+    position: relative;
+}
+
+.imgLeftWithCaption {
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 25px;
+    position: relative;
+}
+
+.imgWithCaption {
+    margin-bottom: 10px;
+    margin-right: 25px;
+    position: relative;
+    
+}
+
+.youvideo {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption{
+    position: absolute;
+    width: 95%;
+    bottom: 5px;
+    padding: 2.5%;
+    left: 0px;  
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.caption sup{
+	color: white;
+}
+ 
+
+
+
+#contentContainer{
+	margin-top: 80px;
+	padding-bottom: 70px;
+}
+
+
+
+#content{
+	width: 77%;
+	padding: 10px 2%;
+	background-color: rgba(255,255,255,0.7);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.4);
+	margin: 0 auto;
+    min-width: 700px; 
+}
+
+
+
+a{                                
+    color: rgb(130,130,130);
+}
+
+a[href^="#"]{       
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+#wrapper{
+	min-height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 55px;
+	color: #fff;
+	text-indent: 10px;
+	vertical-align: middle;
+} 
+
+footer address{
+	display: block;
+    margin: 1em 0;
+}
+
+
+
+#navigation, footer{
+	background-color: rgba(130,130,130,0.9);
+    width: 100%;
+    
+}
+
+#navigation {
+    top: 0px;
+    z-index:9999;
+    position: fixed;
+
+}
+
+
+#navigation ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 100%;
+	text-align: center;
+}
+
+#navigation ul li {
+	display: inline-block;
+	width: 110px;
+	min-width: 100px;
+	text-align: center;
+}
+
+#navigation ul li a {
+	display: block;
+	padding: 9px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#navigation ul li a:hover {
+	background-color: rgb(230,230,230);
+	color: black;
+}
+
+
+#grid{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+
+#grid div{
+	width: 98%;
+	margin-left: 3.5%;
+}
+
+#grid div div{
+	width: 45%;
+	height: 50%;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+
+#grid div div{
+	float: left;
+}
+
+#grid div div p{
+	position: absolute;
+	bottom: 0;
+	left: -25px;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	padding: 25px;
+	margin: 0;
+	font-size: 18pt;
+}
+
+#grid #py, #grid #pc, #grid #os, #grid #phrise{
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	margin: 10px;
+}
+
+#grid #py{
+	background: url("img/software.jpg") no-repeat 50% 50%;
+	background-size: cover;
+}
+#grid #pc{
+	background: url("img/hardware.jpg") no-repeat 50% 50%;
+	background-size: cover;
+}
+#grid #os{
+	background: url("img/systeme-exploitation-OS.webp") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+#grid #phrise{
+	background: url("img/phrise.jpg") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+a{
+color:#E74C3C;
+
+}
+
+
+
+
+.externalLinks{
+	margin-top: 100px;
+	font-style: italic;
+	font-size: 10pt;
+    
+}
+
+.externalLinks a{
+	color: #101010;
+    text-decoration: none;
+    
+}
+
+
+
+	.demo {
+		border:2px solide #000000;
+		border-collapse:effondrer;
+		padding:10px;
+	}
+	.demo th {
+		border:2px solide #000000;
+		padding:10px;
+		background:#9E9E9E;
+	}
+	.demo td {
+		border:2px solide #000000;
+		text-align:centre;
+		padding:10px;
+		background:#FFFFFF;
+	}
