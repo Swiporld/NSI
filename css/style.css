@@ -203,8 +203,11 @@ h1, h2 {
 	padding-bottom: 10px;
 }
 
+
 .floatRight{
 	float: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 
@@ -346,6 +349,10 @@ footer address{
 .floatcenter {
     float:center;
 }
+.floatright {
+    float:right;
+	padding: 0px;
+}
 
 #navigation ul {
 	padding: 0;
@@ -482,3 +489,4 @@ a:hover{
 #frise{
 	size: auto;
 }
+
