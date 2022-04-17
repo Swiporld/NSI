@@ -13,9 +13,31 @@
 			<ul><div class="floatleft">
 				<li><a href="index.html"><img height="40px" src="back.png"></a></li></div>				
                 <div class="floatcenter">
-				<li><a href="html/pc/index.html">Les Ordinateurs</a></li>
-				<li><a href="html/py/index.html">Langages de<br> programation</a></li>
-				<li><a href="html/os/index.html">Systèmes d'exploitation</a></li>
+                    <li><a href="html/pc/index.html">Les Ordinateurs</a>
+                    <ul class="sub-menu">
+                        <li><a href="html/pc/index.html #Les_machines" title="les_machines" >Les machines à programmation externes</a></li>
+                        <li><a href="html/pc/index.html #electro" title="electro" >Les machines électroniques</a></li>
+                        <li><a href="html/pc/index.html #enregistre" title="enregistre" >Les machines à programmes enregistés</a></li>
+                        <li><a href="html/pc/index.html #microprocesseurs" title="microprocesseurs" >Les premiers microprocesseurs</a></li>
+                        <li><a href="" title="familiaux" >Les premiers ordinateurs familiaux</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="html/py/index.html">Langages de<br> programation</a>
+                        <ul class="sub-menu">
+                        <li><a href="html/py/index.html #Python" title="Python" >Python</a></li>
+                        <li><a href="html/py/index.html #Java" title="Java" >JavaScript</a></li>
+                        <li><a href="html/py/index.html #C" title="C" >Le C</a></li>
+                        <li><a href="html/py/index.html #SQL" title="SQL" >Le SQL</a></li>
+                        <li><a href="https://fr.wikipedia.org/wiki/Index_TIOBE" title="TIOBE" >Index TIOBE</a></li>
+                    </ul>
+                </li>
+                    <li><a href="html/os/index.html">Systèmes d'exploitation</a>
+                        <ul class="sub-menu">
+                        <li><a href="html/os/index.html #WND" title="WND" >Windows</a></li>
+                        <li><a href="html/os/index.html #APPLE" title="APPLE" >MacOS</a></li>
+                        <li><a href="html/os/index.html #ANDROID" title="ANDROID" >Android</a></li>
+                        <li><a href="html/os/index.html #LINUX" title="LINUX" >Linux</a></li>
+                    </ul></li>
 				<li><a href="html/phrise/index.html">Récapitulatif chronologique</a></li>
                 <li class="floatright"><a href="css.html"><img height="40px" src="css.png" title="CSS"></a></li>
 			</ul>
@@ -31,17 +53,61 @@
                         &lt;meta name="author" content="Taine Yoni"&gt;
                         &lt;link rel="shortcut icon" href="ESC.jpeg"&gt;
                     &lt;/head&gt;
+                    &lt;style&gt;
+                        body {
+                            overflow-y: hidden;
+                        }
+                        footer {
+                            position: relative;
+                            bottom: 0;
+                            width: 100%;
+                            height: 60px;
+                            color: #fff;
+                            text-indent: 10px;
+                            vertical-align: middle;
+                        }
+                    &lt;/style&gt;
                     &lt;body&gt;
                         &lt;div id="wrapper"&gt;
                             &lt;div id="navigation"&gt;
-                                &lt;ul&gt;&lt;div class="floatleft"&gt;
-                                    &lt;li&gt;&lt;a href="index.html"&gt;&lt;img height="40px" src="menu.png"&gt;&lt;/a&gt;&lt;/li&gt;&lt;/div&gt;				
+                                &lt;ul&gt;
+                                    &lt;div class="floatleft"&gt;
+                                        &lt;li&gt;&lt;a href="index.html"&gt;&lt;img height="40px" src="menu.png"&gt;&lt;/a&gt;&lt;/li&gt;
+                                    &lt;/div&gt;
                                     &lt;div class="floatcenter"&gt;
-                                    &lt;li&gt;&lt;a href="html/pc/index.html"&gt;Les Ordinateurs&lt;/a&gt;&lt;/li&gt;
-                                    &lt;li&gt;&lt;a href="html/py/index.html"&gt;Langages de&lt;br&gt; programation&lt;/a&gt;&lt;/li&gt;
-                                    &lt;li&gt;&lt;a href="html/os/index.html"&gt;Systèmes d'exploitation&lt;/a&gt;&lt;/li&gt;
-                                    &lt;li&gt;&lt;a href="html/phrise/index.html"&gt;Récapitulatif chronologique&lt;/a&gt;&lt;/li&gt;
-                                    &lt;li class="floatright"&gt;&lt;a href="index2.html"&gt;&lt;img height="40px" src="code.png"&gt;&lt;/a&gt;&lt;/li&gt;
+                                        &lt;li&gt;&lt;a href="html/pc/index.html"&gt;Les Ordinateurs&lt;/a&gt;
+                                            &lt;ul class="sub-menu"&gt;
+                                                &lt;li&gt;&lt;a href="html/pc/index.html #Les_machines" title="les_machines"&gt;Les machines à
+                                                        programmation externes&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="html/pc/index.html #electro" title="electro"&gt;Les machines électroniques&lt;/a&gt;
+                                                &lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="html/pc/index.html #enregistre" title="enregistre"&gt;Les machines à programmes
+                                                        enregistés&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="html/pc/index.html #microprocesseurs" title="microprocesseurs"&gt;Les premiers
+                                                        microprocesseurs&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="" title="familiaux"&gt;Les premiers ordinateurs familiaux&lt;/a&gt;&lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;&lt;a href="html/py/index.html"&gt;Langages de&lt;br&gt; programation&lt;/a&gt;
+                                            &lt;ul class="sub-menu"&gt;
+                                                &lt;li&gt;&lt;a href="html/py/index.html #Python" title="Python"&gt;Python&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="html/py/index.html #Java" title="Java"&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="html/py/index.html #C" title="C"&gt;Le C&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="html/py/index.html #SQL" title="SQL"&gt;Le SQL&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="https://fr.wikipedia.org/wiki/Index_TIOBE" title="TIOBE"&gt;Index TIOBE&lt;/a&gt;&lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;&lt;a href="html/os/index.html"&gt;Systèmes d'exploitation&lt;/a&gt;
+                                            &lt;ul class="sub-menu"&gt;
+                                                &lt;li&gt;&lt;a href="html/os/index.html #WND" title="WND"&gt;Windows&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="html/os/index.html #APPLE" title="APPLE"&gt;MacOS&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="html/os/index.html #ANDROID" title="ANDROID"&gt;Android&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li&gt;&lt;a href="html/os/index.html #LINUX" title="LINUX"&gt;Linux&lt;/a&gt;&lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;&lt;a href="html/phrise/index.html"&gt;Récapitulatif chronologique&lt;/a&gt;&lt;/li&gt;
+                                        &lt;li class="floatright"&gt;&lt;a href="index2.html"&gt;&lt;img height="40px" src="code.png"
+                                                    title="code de la page"&gt;&lt;/a&gt;&lt;/li&gt;
                                 &lt;/ul&gt;
                             &lt;/div&gt;
                             &lt;div id="contentContainer" class="clearfix"&gt;
@@ -51,12 +117,28 @@
                                     &lt;/div&gt;
                                     &lt;div id="grid" class="clearfix"&gt;
                                         &lt;div id="topRow" class="clearfix"&gt;
-                                            &lt;a href="html/pc/index.html"&gt;&lt;div id="pc" class="left"&gt;&lt;p&gt;Les ordinateurs&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;
-                                            &lt;a href="html/py/index.html"&gt;&lt;div id="py" class="right"&gt;&lt;p&gt;Les langages de programations&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;
+                                            &lt;a href="html/pc/index.html"&gt;
+                                                &lt;div id="pc" class="left"&gt;
+                                                    &lt;p&gt;Les ordinateurs&lt;/p&gt;
+                                                &lt;/div&gt;
+                                            &lt;/a&gt;
+                                            &lt;a href="html/py/index.html"&gt;
+                                                &lt;div id="py" class="right"&gt;
+                                                    &lt;p&gt;Les langages de programations&lt;/p&gt;
+                                                &lt;/div&gt;
+                                            &lt;/a&gt;
                                         &lt;/div&gt;
                                         &lt;div id="bottomRow" class="clearfix"&gt;
-                                            &lt;a href="html/os/index.html"&gt;&lt;div id="os" class="center"&gt;&lt;p&gt;Les systèmes d'exploitation&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;
-                                            &lt;a href="html/phrise/index.html"&gt;&lt;div id="phrise" class="center"&gt;&lt;p&gt;Récapitulatif chronologique&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;	
+                                            &lt;a href="html/os/index.html"&gt;
+                                                &lt;div id="os" class="center"&gt;
+                                                    &lt;p&gt;Les systèmes d'exploitation&lt;/p&gt;
+                                                &lt;/div&gt;
+                                            &lt;/a&gt;
+                                            &lt;a href="html/phrise/index.html"&gt;
+                                                &lt;div id="phrise" class="center"&gt;
+                                                    &lt;p&gt;Récapitulatif chronologique&lt;/p&gt;
+                                                &lt;/div&gt;
+                                            &lt;/a&gt;
                                         &lt;/div&gt;
                                     &lt;/div&gt;
                                 &lt;/div&gt;
