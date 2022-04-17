@@ -303,6 +303,7 @@ a[href^="#"]{
 
 abbr{
 	color:mediumpurple;
+	text-decoration: none;
 
 
 }
@@ -346,12 +347,23 @@ footer address{
 .floatleft {
     float:left;
 }
+.floatleft:hover {
+	transition:1s ;
+	transform: rotate(-360deg); 
+    float:left;
+}
 .floatcenter {
     float:center;
 }
 .floatright {
     float:right;
 	padding: 0px;
+}
+.floatright:hover {
+    float:right;
+	padding: 0px;
+	transition:1s ;
+	transform: rotate(360deg); 
 }
 
 #navigation ul {
@@ -446,6 +458,7 @@ footer address{
 
 a{
 color:#E74C3C;
+text-decoration:none;
 
 }
 
@@ -490,4 +503,40 @@ a:hover{
 	size: auto;
 }
 
+body::-webkit-scrollbar {
+	width: 6px; 
+  }
+  
+  body::-webkit-scrollbar-track {
+	background: rgba(130,130,130,0.9); 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+	background-color: rgba(255,255,255,0.9); 
+	border-radius: 10px; 
+	border: 3px solid rgba(255,255,255,0.9); 
+  }
 
+  .sub-menu{
+	  display:none;
+	  position: absolute;
+	  background-color: rgba(130,130,130,0.9);
+	  width: 250px;
+  }
+  div li:hover .sub-menu{
+	  display:block
+  }
+  div li {
+	  position: relative;
+
+
+  }
+  .sub-menu li{
+	display:block;
+
+}
+div li:hover a{
+	text-align: center;
+	font-size: 15px;
+	color: #000000;
+}
