@@ -537,6 +537,6 @@ body::-webkit-scrollbar {
 }
 div li:hover a{
 	text-align: center;
-	font-size: 15px;
+	font-size: 13px;
 	color: #000000;
 }
