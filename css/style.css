@@ -404,22 +404,6 @@ a:hover {
 	color: #101010;
 	text-decoration: none;
 }
-.demo {
-	border: 2px solide #000000;
-	border-collapse: effondrer;
-	padding: 10px;
-}
-.demo th {
-	border: 2px solide #000000;
-	padding: 10px;
-	background: #9E9E9E;
-}
-.demo td {
-	border: 2px solide #000000;
-	text-align: centre;
-	padding: 10px;
-	background: #FFFFFF;
-}
 #frise {
 	size: auto;
 }
@@ -454,4 +438,15 @@ div li ul:hover a {
 	text-align: center;
 	font-size: 13px;
 	color: #000000;
+}
+
+table thead tr th{
+	background-color: rgba(130, 130, 130, 0.7);
+	text-align: center;
+	color: rgba(255, 255, 255, 0.9);
+}
+table tr{
+	color: #000000;
+	text-align:center;
+	font-size: 17px;
 }
