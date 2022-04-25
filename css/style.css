@@ -265,7 +265,7 @@ footer {
 	bottom: 0;
 	width: 100%;
 	height: 55px;
-	color: #fff;
+	color: rgba(130, 130, 130, 0.9);
 	text-indent: 10px;
 	vertical-align: middle;
 }
@@ -449,4 +449,46 @@ table tr{
 	color: #000000;
 	text-align:center;
 	font-size: 17px;
+}
+.Z1{
+	display: none;
+}
+.Z2{
+	display: none;
+}
+.Z3{
+	display: none;
+}
+.Z4{
+	display: none;
+}
+.ANA{
+	display: none;
+}
+.COLO{
+	display: none;
+}
+.ENIAc{
+	display: none;
+}
+.VON{
+	display: none;
+}
+.quatre{
+	display: none;
+}
+.huit{
+	display: none;
+}
+.ZX{
+	display: none;
+}
+.C64{
+	display: none;
+}
+.Windows{
+	display: none;
+}
+.MacOSM{
+	display: none;
 }

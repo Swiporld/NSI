@@ -8,6 +8,16 @@
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="../../ESC.jpeg">
 </head>
+<script>
+	var C64.Checkbox = document.querySelector('input[value="C64"]');
+C64.Checkbox.onchange = function() {
+  if(C64.Checkbox.checked) {
+    C64.visibility = 'visible';
+  } else {
+    C64.visibility = 'hidden';
+  }
+};
+</script>
 
 <body>
 	<div id="wrapper">
@@ -79,6 +89,7 @@
 							<th>Date de création</th>
 							<th>Vitesse de travail</th>
 							<th>Capacité mémoire</th>
+							<th>Comparatif Globale</th> 
 						</tr>
 					</thead>
 					<tbody>
@@ -87,24 +98,28 @@
 							<td>1937</td>
 							<td>5 opérations par seconde</td>
 							<td>176 octets</td>
+							<td><input type="checkbox" id="Z1" name="Z1" value="Z1"></td>
 						</tr>
 						<tr>
 							<td>Zuse 2</td>
 							<td>1939</td>
 							<td>7 opérations par seconde</td>
 							<td>176 octets</td>
+							<td><input type="checkbox" id="Z2" name="Z2" value="Z2"></td>
 						</tr>
 						<tr>
 							<td>Zuse 3</td>
 							<td>1941</td>
 							<td>10 opérations par seconde</td>
 							<td>176 octets</td>
+							<td><input type="checkbox" id="Z3" name="Z3" value="Z3"></td>
 						</tr>
 						<tr>
 							<td>Zuse 4</td>
 							<td>1945</td>
 							<td>20 opérations par seconde</td>
 							<td>176 octets</td>
+							<td><input type="checkbox" id="Z4" name="Z4" value="Z4"></td>
 						</tr>
 					</tbody>
 				</table>
@@ -126,6 +141,7 @@
 							<th>Date de création</th>
 							<th>Vitesse de travail</th>
 							<th>Capacité mémoire</th>
+							<th>Comparatif Globale</th> 
 						</tr>
 					</thead>
 					<tbody>
@@ -134,18 +150,21 @@
 							<td>1937</td>
 							<td>30 opérations par seconde</td>
 							<td>375 octets</td>
+							<td><input type="checkbox" id="ANA" name="ANA" value="ANA"></td>
 						</tr>
 						<tr>
 							<td>Colossus</td>
 							<td>1943</td>
 							<td>5 000 opérations par seconde</td>
 							<td>5632 octets</td>
+							<td><input type="checkbox" id="COLO" name="COLO" value="COLO"></td>
 						</tr>
 						<tr>
 							<td>ENIAC</td>
 							<td>1945</td>
 							<td>1 000 opérations par seconde</td>
 							<td>2183 octets</td>
+							<td><input type="checkbox" id="ENIAc" name="ENIAc" value="ENIAc"></td>
 						</tr>
 					</tbody>
 				</table>
@@ -163,6 +182,7 @@
 							<th>Date de création</th>
 							<th>Vitesse de travail</th>
 							<th>Capacité mémoire</th>
+							<th>Comparatif Globale</th> 
 						</tr>
 					</thead>
 					<tbody>
@@ -171,6 +191,7 @@
 							<td>1945</td>
 							<td>Variable celon les différents<br> composants de la structure</td>
 							<td>Variable celon les différents<br> composants de la structure</td>
+							<td><input type="checkbox" id="VON" name="VON" value="VON"></td>
 						</tr>
 					</tbody>
 				</table>
@@ -182,15 +203,16 @@
 						href="https://fr.wikipedia.org/wiki/Intel_8008">8008</a> de chez intel toujourd par la même
 					presonne, il est le premiers microprocesseurs<br> de type "8bits".</h4>
 				<p>
-					<a href="4004.jpg"><img align="right" height="150px" src="4004.jpg" title="4004"></a>
+					<a href="4004.jpg"><img align="right" height="150px" src="4004.jpg" title="4004"></a><div id="familiaux"></div>
 				<p>
-				<table class="demo">
+				<table>
 					<thead>
 						<tr>
 							<th>Nom de la machine</th>
 							<th>Date de création</th>
 							<th>Vitesse de travail</th>
 							<th>Capacité mémoire</th>
+							<th>Comparatif Globale</th> 
 						</tr>
 					</thead>
 					<tbody>
@@ -199,12 +221,14 @@
 							<td>1971</td>
 							<td>92 600 opérations par seconde</td>
 							<td>640 octets</td>
+							<td><input type="checkbox" id="quatre" name="quatre" value="quatre"></td>
 						</tr>
 						<tr>
 							<td>8008</td>
 							<td>1972</td>
 							<td>160 000 opérations pas seconde</td>
 							<td>16000 octets</td>
+							<td><input type="checkbox" id="huit" name="huit" value="huit"></td>
 						</tr>
 					<tbody>
 				</table>
@@ -221,6 +245,7 @@
 							<th>Date de création</th>
 							<th>Vitesse de travail</th>
 							<th>Capacité mémoire</th>
+							<th>Comparatif Globale</th> 
 						</tr>
 					</thead>
 					<tbody>
@@ -229,12 +254,14 @@
 							<td>1981</td>
 							<td>3 250 000 opérations par seconde</td>
 							<td>56 000 octets</td>
+							<td><input type="checkbox" id="ZX81" name="ZX81" value="ZX81"></td>
 						</tr>
 						<tr>
 							<td>Commodore 64</td>
 							<td>1982</td>
 							<td>1 023 000 opérations pas seconde</td>
 							<td>64 000 octets</td>
+							<td><input type="checkbox" id="C64" name="C64" value="C64"></td>
 						</tr>
 					<tbody>
 				</table>
@@ -252,85 +279,85 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
+						<tr class="Z1">
 							<td>Zuse 1</td>
 							<td>1937</td>
 							<td>5 opérations par seconde</td>
 							<td>176 octets</td>
 						</tr>
-						<tr>
+						<tr class="Z2">
 							<td>Zuse 2</td>
 							<td>1939</td>
 							<td>7 opérations par seconde</td>
 							<td>176 octets</td>
 						</tr>
-						<tr>
+						<tr class="Z3">
 							<td>Zuse 3</td>
 							<td>1941</td>
 							<td>10 opérations par seconde</td>
 							<td>176 octets</td>
 						</tr>
-						<tr>
+						<tr class="Z4">
 							<td>Zuse 4</td>
 							<td>1945</td>
 							<td>20 opérations par seconde</td>
 							<td>176 octets</td>
 						</tr>
-						<tr>
+						<tr class="ANA">
 							<td>Atanasoff–Berry Computer</td>
 							<td>1937</td>
 							<td>30 opérations par seconde</td>
 							<td>375 octets</td>
 						</tr>
-						<tr>
+						<tr class="COLO">
 							<td>Colossus</td>
 							<td>1943</td>
 							<td>5 000 opérations par seconde</td>
 							<td>5632 octets</td>
 						</tr>
-						<tr>
+						<tr class="ENIAc">
 							<td>ENIAC</td>
 							<td>1945</td>
 							<td>1 000 opérations par seconde</td>
 							<td>2183 octets</td>
 						</tr>
-						<tr>
+						<tr class="VON">
 							<td>Structure de Von Neumann</td>
 							<td>1945</td>
 							<td>Variable celon les différents<br> composants de la structure</td>
 							<td>Variable celon les différents<br> composants de la structure</td>
 						</tr>
-						<tr>
+						<tr class="quatre">
 							<td>4004</td>
 							<td>1971</td>
 							<td>92 600 opérations par seconde</td>
 							<td>640 octets</td>
 						</tr>
-						<tr>
+						<tr class="huit">
 							<td>8008</td>
 							<td>1972</td>
 							<td>160 000 opérations pas seconde</td>
 							<td>16000 octets</td>
 						</tr>
-						<tr>
+						<tr class="ZX">
 							<td>ZX 81</td>
 							<td>1981</td>
 							<td>3 250 000 opérations par seconde</td>
 							<td>56 000 octets</td>
 						</tr>
-						<tr>
+						<tr class="C64">
 							<td>Commodore 64</td>
 							<td>1982</td>
 							<td>1 023 000 opérations pas seconde</td>
 							<td>64 000 octets</td>
 						</tr>
-						<tr>
+						<tr class="Windows">
 							<td>Mon ordinateur(Windows)</td>
 							<td>2018</td>
 							<td>2 700 000 000 opérations pas seconde(processeur)</td>
 							<td>8 000 000 000 octets(RAM)</td>
 						</tr>
-						<tr>
+						<tr class="MacOSM">
 							<td>Mon ordinateur(MacOS)</td>
 							<td>2020</td>
 							<td>3 200 000 000 opérations pas seconde(processeur)</td>
