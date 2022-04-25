@@ -359,13 +359,16 @@ footer {
 	margin: 0;
 	font-size: 18pt;
 }
-#grid #py,
-#grid #pc,
-#grid #os,
-#grid #phrise {
+#grid #py,#grid #pc,#grid #os,#grid #phrise {
 	background-color: rgba(0, 0, 0, 0.8);
 	color: white;
 	margin: 10px;
+	height: 350px;
+}
+#grid #py:hover,#grid #pc:hover,#grid #os:hover,#grid #phrise:hover {
+	transition: 1s;
+	transform:scale(0.9) ;
+
 }
 #grid #py {
 	background: url("img/software.jpg") no-repeat 50% 50%;
