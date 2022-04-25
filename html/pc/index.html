@@ -8,17 +8,6 @@
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="../../ESC.jpeg">
 </head>
-<script>
-	var C64.Checkbox = document.querySelector('input[value="C64"]');
-C64.Checkbox.onchange = function() {
-  if(C64.Checkbox.checked) {
-    C64.visibility = 'visible';
-  } else {
-    C64.visibility = 'hidden';
-  }
-};
-</script>
-
 <body>
 	<div id="wrapper">
 		<div id="navigation">
@@ -89,7 +78,6 @@ C64.Checkbox.onchange = function() {
 							<th>Date de création</th>
 							<th>Vitesse de travail</th>
 							<th>Capacité mémoire</th>
-							<th>Comparatif Globale</th> 
 						</tr>
 					</thead>
 					<tbody>
@@ -98,28 +86,24 @@ C64.Checkbox.onchange = function() {
 							<td>1937</td>
 							<td>5 opérations par seconde</td>
 							<td>176 octets</td>
-							<td><input type="checkbox" id="Z1" name="Z1" value="Z1"></td>
 						</tr>
 						<tr>
 							<td>Zuse 2</td>
 							<td>1939</td>
 							<td>7 opérations par seconde</td>
 							<td>176 octets</td>
-							<td><input type="checkbox" id="Z2" name="Z2" value="Z2"></td>
 						</tr>
 						<tr>
 							<td>Zuse 3</td>
 							<td>1941</td>
 							<td>10 opérations par seconde</td>
 							<td>176 octets</td>
-							<td><input type="checkbox" id="Z3" name="Z3" value="Z3"></td>
 						</tr>
 						<tr>
 							<td>Zuse 4</td>
 							<td>1945</td>
 							<td>20 opérations par seconde</td>
 							<td>176 octets</td>
-							<td><input type="checkbox" id="Z4" name="Z4" value="Z4"></td>
 						</tr>
 					</tbody>
 				</table>
@@ -141,7 +125,6 @@ C64.Checkbox.onchange = function() {
 							<th>Date de création</th>
 							<th>Vitesse de travail</th>
 							<th>Capacité mémoire</th>
-							<th>Comparatif Globale</th> 
 						</tr>
 					</thead>
 					<tbody>
@@ -150,21 +133,18 @@ C64.Checkbox.onchange = function() {
 							<td>1937</td>
 							<td>30 opérations par seconde</td>
 							<td>375 octets</td>
-							<td><input type="checkbox" id="ANA" name="ANA" value="ANA"></td>
 						</tr>
 						<tr>
 							<td>Colossus</td>
 							<td>1943</td>
 							<td>5 000 opérations par seconde</td>
 							<td>5632 octets</td>
-							<td><input type="checkbox" id="COLO" name="COLO" value="COLO"></td>
 						</tr>
 						<tr>
 							<td>ENIAC</td>
 							<td>1945</td>
 							<td>1 000 opérations par seconde</td>
 							<td>2183 octets</td>
-							<td><input type="checkbox" id="ENIAc" name="ENIAc" value="ENIAc"></td>
 						</tr>
 					</tbody>
 				</table>
@@ -182,7 +162,6 @@ C64.Checkbox.onchange = function() {
 							<th>Date de création</th>
 							<th>Vitesse de travail</th>
 							<th>Capacité mémoire</th>
-							<th>Comparatif Globale</th> 
 						</tr>
 					</thead>
 					<tbody>
@@ -191,7 +170,6 @@ C64.Checkbox.onchange = function() {
 							<td>1945</td>
 							<td>Variable celon les différents<br> composants de la structure</td>
 							<td>Variable celon les différents<br> composants de la structure</td>
-							<td><input type="checkbox" id="VON" name="VON" value="VON"></td>
 						</tr>
 					</tbody>
 				</table>
@@ -212,7 +190,6 @@ C64.Checkbox.onchange = function() {
 							<th>Date de création</th>
 							<th>Vitesse de travail</th>
 							<th>Capacité mémoire</th>
-							<th>Comparatif Globale</th> 
 						</tr>
 					</thead>
 					<tbody>
@@ -221,14 +198,12 @@ C64.Checkbox.onchange = function() {
 							<td>1971</td>
 							<td>92 600 opérations par seconde</td>
 							<td>640 octets</td>
-							<td><input type="checkbox" id="quatre" name="quatre" value="quatre"></td>
 						</tr>
 						<tr>
 							<td>8008</td>
 							<td>1972</td>
 							<td>160 000 opérations pas seconde</td>
 							<td>16000 octets</td>
-							<td><input type="checkbox" id="huit" name="huit" value="huit"></td>
 						</tr>
 					<tbody>
 				</table>
@@ -245,7 +220,6 @@ C64.Checkbox.onchange = function() {
 							<th>Date de création</th>
 							<th>Vitesse de travail</th>
 							<th>Capacité mémoire</th>
-							<th>Comparatif Globale</th> 
 						</tr>
 					</thead>
 					<tbody>
@@ -254,14 +228,12 @@ C64.Checkbox.onchange = function() {
 							<td>1981</td>
 							<td>3 250 000 opérations par seconde</td>
 							<td>56 000 octets</td>
-							<td><input type="checkbox" id="ZX81" name="ZX81" value="ZX81"></td>
 						</tr>
 						<tr>
 							<td>Commodore 64</td>
 							<td>1982</td>
 							<td>1 023 000 opérations pas seconde</td>
 							<td>64 000 octets</td>
-							<td><input type="checkbox" id="C64" name="C64" value="C64"></td>
 						</tr>
 					<tbody>
 				</table>
@@ -279,85 +251,85 @@ C64.Checkbox.onchange = function() {
 						</tr>
 					</thead>
 					<tbody>
-						<tr class="Z1">
+						<tr>
 							<td>Zuse 1</td>
 							<td>1937</td>
 							<td>5 opérations par seconde</td>
 							<td>176 octets</td>
 						</tr>
-						<tr class="Z2">
+						<tr>
 							<td>Zuse 2</td>
 							<td>1939</td>
 							<td>7 opérations par seconde</td>
 							<td>176 octets</td>
 						</tr>
-						<tr class="Z3">
+						<tr>
 							<td>Zuse 3</td>
 							<td>1941</td>
 							<td>10 opérations par seconde</td>
 							<td>176 octets</td>
 						</tr>
-						<tr class="Z4">
+						<tr>
 							<td>Zuse 4</td>
 							<td>1945</td>
 							<td>20 opérations par seconde</td>
 							<td>176 octets</td>
 						</tr>
-						<tr class="ANA">
+						<tr>
 							<td>Atanasoff–Berry Computer</td>
 							<td>1937</td>
 							<td>30 opérations par seconde</td>
 							<td>375 octets</td>
 						</tr>
-						<tr class="COLO">
+						<tr>
 							<td>Colossus</td>
 							<td>1943</td>
 							<td>5 000 opérations par seconde</td>
 							<td>5632 octets</td>
 						</tr>
-						<tr class="ENIAc">
+						<tr>
 							<td>ENIAC</td>
 							<td>1945</td>
 							<td>1 000 opérations par seconde</td>
 							<td>2183 octets</td>
 						</tr>
-						<tr class="VON">
+						<tr>
 							<td>Structure de Von Neumann</td>
 							<td>1945</td>
 							<td>Variable celon les différents<br> composants de la structure</td>
 							<td>Variable celon les différents<br> composants de la structure</td>
 						</tr>
-						<tr class="quatre">
+						<tr>
 							<td>4004</td>
 							<td>1971</td>
 							<td>92 600 opérations par seconde</td>
 							<td>640 octets</td>
 						</tr>
-						<tr class="huit">
+						<tr>
 							<td>8008</td>
 							<td>1972</td>
 							<td>160 000 opérations pas seconde</td>
 							<td>16000 octets</td>
 						</tr>
-						<tr class="ZX">
+						<tr>
 							<td>ZX 81</td>
 							<td>1981</td>
 							<td>3 250 000 opérations par seconde</td>
 							<td>56 000 octets</td>
 						</tr>
-						<tr class="C64">
+						<tr>
 							<td>Commodore 64</td>
 							<td>1982</td>
 							<td>1 023 000 opérations pas seconde</td>
 							<td>64 000 octets</td>
 						</tr>
-						<tr class="Windows">
+						<tr>
 							<td>Mon ordinateur(Windows)</td>
 							<td>2018</td>
 							<td>2 700 000 000 opérations pas seconde(processeur)</td>
 							<td>8 000 000 000 octets(RAM)</td>
 						</tr>
-						<tr class="MacOSM">
+						<tr>
 							<td>Mon ordinateur(MacOS)</td>
 							<td>2020</td>
 							<td>3 200 000 000 opérations pas seconde(processeur)</td>
