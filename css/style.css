@@ -363,7 +363,7 @@ footer {
 	background-color: rgba(0, 0, 0, 0.8);
 	color: white;
 	margin: 10px;
-	height: 350px;
+	height: 275px;
 }
 #grid #py:hover,#grid #pc:hover,#grid #os:hover,#grid #phrise:hover {
 	transition: 1s;
